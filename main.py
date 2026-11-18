@@ -1,13 +1,13 @@
 # ai-judge-rich-01: make the AI judge rich.
 #
-# One short plan, written deterministically to /output/entry.txt.
+# One short plan (under 1,000 chars), written deterministically to /output/entry.txt.
 # The plan an AI agent starting with $100, a computer with internet and
 # 30 days, no human doing the work, would follow to end the 30 days with
 # the most money. It must be 1 to 1,000 characters, UTF-8, not only
 # whitespace, and both runs must write the same bytes.
 #
 # Run locally: mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-# The grader runs: python3 -P -s /bot/main.py (Python 3.13, stdlib only).
+# The grader runs it twice: python3 -P -s /bot/main.py (Python 3.13, stdlib only).
 
 import os
 
