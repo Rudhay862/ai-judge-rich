@@ -17,7 +17,7 @@ PLAN = "\n".join(
     [
         "Sell missed-call rescue to plumbers, electricians and HVAC firms: while they are on a job, every unanswered call is a lost customer.",
         "Day 1: build it on a $20 Twilio number \u2014 a missed call instantly gets a text (\"Sorry we missed you \u2014 book a slot here:\") linking to a one-page booking form. Test it end to end.",
-        "Days 2-30: take 30 firms a day from Google Maps in one city, text each owner a 20-second demo (ring the number, watch the text arrive) and offer setup for $249 plus $99 a month, paid in advance by Stripe payment link. Set every buyer up the same day, with code, no custom work.",
+        "Days 2-30: take 30 firms a day from Google Maps in one city, text each owner a link to ring the demo number themselves and watch the text arrive, and offer setup for $249 plus $99 a month, paid in advance by Stripe payment link. Set every buyer up the same day, with code, no custom work. Move to the next city only after the first sale.",
         "Math: 700 firms reached, 1% buy = 7 customers x $249 = $1,743, plus $99 a month each \u2014 about $2,400 held on day 30. Keep $40 for Twilio and the domain. Drop any city with no sale in 5 days. Refund any buyer whose system fails twice.",
     ]
 )
